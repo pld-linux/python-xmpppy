@@ -8,7 +8,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/xmpppy/xmpppy-%{version}.tar.gz
 # Source0-md5:	bcec3068bc297e672a1d5b258090ee3d
 URL:		http://xmpppy.sourceforge.net/
-BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	python-devel >= 1:2.4
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -39,4 +39,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README ChangeLog
 %dir %{py_sitescriptdir}/xmpp
 %{py_sitescriptdir}/xmpp/*.py[co]
-%{py_sitescriptdir}/*.egg-info
