@@ -2,7 +2,7 @@ Summary:	Jabber/XMPP package for Python
 Summary(pl.UTF-8):	Biblioteka Jabber/XMPP dla Pythona
 Name:		python-xmpppy
 Version:	0.4.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/xmpppy/xmpppy-%{version}.tar.gz
