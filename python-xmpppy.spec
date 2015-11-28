@@ -23,12 +23,12 @@ Ten pakiet udostępnia interfejs Pythona do protokołów XMPP i Jabber.
 %setup -qn xmpppy-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python setup.py install --optimize=2 --root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
