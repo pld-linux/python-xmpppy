@@ -8,6 +8,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/xmpppy/xmpppy-%{version}.tar.gz
 # Source0-md5:	ca36d685643f2c56ab07323a09ece9e4
 URL:		http://xmpppy.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
